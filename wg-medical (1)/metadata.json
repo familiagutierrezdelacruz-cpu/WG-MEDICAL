@@ -1,0 +1,5 @@
+{
+  "name": "WG MEDICAL",
+  "description": "Una aplicación de gestión de consultorios médicos para administrar pacientes, historiales de consultas y generar recetas con ayuda de IA.",
+  "requestFramePermissions": []
+}

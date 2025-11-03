@@ -1,0 +1,18 @@
+{
+  "name": "consultorio-medico-ai",
+  "version": "1.0.0",
+  "description": "Aplicación de gestión de consultorios médicos.",
+  "private": true,
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --minify --format=esm --outfile=dist/app.js && cp index.html dist/index.html"
+  },
+  "dependencies": {
+    "@google/genai": "^1.28.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0"
+  }
+}
